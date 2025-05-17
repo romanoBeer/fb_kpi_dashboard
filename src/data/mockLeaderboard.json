@@ -1,0 +1,38 @@
+[
+  {
+    "manager": "Jason Kramer",
+    "page": "Crickley",
+    "engagement": 5,
+    "followers": 900,
+    "growth": 78,
+    "reach": 80,
+    "reactions": 9
+  },
+  {
+    "manager": "Shendl Harden",
+    "page": "NCCR",
+    "engagement": 70,
+    "followers": 600,
+    "growth": 60,
+    "reach": 40,
+    "reactions": 5
+  },
+  {
+    "manager": "Chantal Pienaar",
+    "page": "FitFam ZA",
+    "engagement": 100,
+    "followers": 1000,
+    "growth": 88,
+    "reach": 120,
+    "reactions": 12
+  },
+  {
+    "manager": "Ruan Pienaar",
+    "page": "Elite Retreats",
+    "engagement": 90,
+    "followers": 3000,
+    "growth": 79,
+    "reach": 100,
+    "reactions": 90
+  }
+]
