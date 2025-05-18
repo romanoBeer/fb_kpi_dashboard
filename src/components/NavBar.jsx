@@ -4,11 +4,14 @@ import logo from "../assets/logo.png";
 function NavBar() {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm justify-between px-7">
+      <div className="navbar bg-base-200 justify-between px-7">
         <div className="flex-none">
           <a href="">
-            <img src={logo} className="w-35" />
+            <img src={logo} className="w-28" />
           </a>
+        </div>
+        <div>
+          <h1>Social Media Manager Dashboard</h1>
         </div>
         <div className="drawer-end flex-none">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
