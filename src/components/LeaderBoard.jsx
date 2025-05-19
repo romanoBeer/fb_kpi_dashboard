@@ -19,7 +19,7 @@ function LeaderBoard() {
   }, [currentData, previousData]);
 
   return (
-    <div className="p-2 bg-base-100 rounded-lg h-1/2">
+    <div>
       <div className="overflow-x-auto">
         <table className="table">
           <thead>

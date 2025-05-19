@@ -10,9 +10,6 @@ function NavBar() {
             <img src={logo} className="w-28" />
           </a>
         </div>
-        <div>
-          <h1>Social Media Manager Dashboard</h1>
-        </div>
         <div className="drawer-end flex-none">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">

@@ -10,15 +10,21 @@ function App() {
 
   return (
     <>
-      <NavBar />
-      <div className="bg-base-200 flex flex-row justify-between">
-        <div className="w-full p-2 bg-base-100 rounded-lg m-2 h-screen">Hi There</div>
-        <div className="h-screen">
-          <Podium />
-          <LeaderBoard />
+      <section className="w-full h-screen flex flex-col">
+        <NavBar />
+        <div className="grid grid-cols-[1fr_2fr_1fr] bg-base-200 flex-1">
+          <div className="m-2 rounded-lg p-4 bg-base-100">Hi There</div>
+          <div className="flex flex-col gap-2">
+            <div className="mt-2 rounded-lg p-4 bg-base-100 flex-none">
+              <Podium />
+            </div>
+            <div className="mb-2 rounded-lg p-4 bg-base-100 h-[553px] overflow-hidden">
+              <LeaderBoard />
+            </div>
+          </div>
+          <div className="m-2 rounded-lg p-4 bg-base-100">Hi There</div>
         </div>
-        <div className="w-full p-2 bg-base-100 rounded-lg m-2 h-screen">Hi There</div>
-      </div>
+      </section>
     </>
   );
 }
